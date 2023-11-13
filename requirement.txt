@@ -1,0 +1,12 @@
+bs4
+python-docx
+docx
+requests
+spacy
+pywikibot
+transformers
+rdflib
+tqdm
+pandas
+neo4j
+scispacy

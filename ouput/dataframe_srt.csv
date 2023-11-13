@@ -1,0 +1,280 @@
+source_name,source_q,rel_p,rel_name,target_name,target_q
+non-Hodgkin lymphoma,Q1138590,P31,instance_of,class of disease,Q112193867
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,lymphoma,Q208414
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,neoplasm,Q1216998
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,hematopoietic system disease,Q1963588
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,disease,Q12136
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Hodgkin lymphoma,Q209369,P31,instance_of,class of disease,Q112193867
+Hodgkin lymphoma,Q209369,P31,instance_of,symptom or sign,Q112965645
+Hodgkin lymphoma,Q209369,P279,subclass_of,lymphoma,Q208414
+Hodgkin lymphoma,Q209369,P279,subclass_of,disease,Q12136
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+non-Hodgkin lymphoma,Q1138590,P31,instance_of,class of disease,Q112193867
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,lymphoma,Q208414
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,neoplasm,Q1216998
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,hematopoietic system disease,Q1963588
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,disease,Q12136
+non-Hodgkin lymphoma,Q1138590,P31,instance_of,class of disease,Q112193867
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,lymphoma,Q208414
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,neoplasm,Q1216998
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,hematopoietic system disease,Q1963588
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,disease,Q12136
+non-Hodgkin lymphoma,Q1138590,P31,instance_of,class of disease,Q112193867
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,lymphoma,Q208414
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,neoplasm,Q1216998
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,hematopoietic system disease,Q1963588
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,disease,Q12136
+central nervous system lymphoma,Q136312,P31,instance_of,class of disease,Q112193867
+central nervous system lymphoma,Q136312,P279,subclass_of,lymphoma,Q208414
+central nervous system lymphoma,Q136312,P279,subclass_of,central nervous system hematologic cancer,Q18557002
+Hodgkin lymphoma,Q209369,P31,instance_of,class of disease,Q112193867
+Hodgkin lymphoma,Q209369,P31,instance_of,symptom or sign,Q112965645
+Hodgkin lymphoma,Q209369,P279,subclass_of,lymphoma,Q208414
+Hodgkin lymphoma,Q209369,P279,subclass_of,disease,Q12136
+non-Hodgkin lymphoma,Q1138590,P31,instance_of,class of disease,Q112193867
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,lymphoma,Q208414
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,neoplasm,Q1216998
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,hematopoietic system disease,Q1963588
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,disease,Q12136
+National Hockey League,Q1215892,P31,instance_of,professional sports league,Q15991290
+National Hockey League,Q1215892,P31,instance_of,ice hockey league,Q75179296
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Aggressive lymphomas,Q28279743,P31,instance_of,scholarly article,Q13442814
+Aggressive lymphomas,Q28279743,P31,instance_of,review article,Q7318358
+Aggressive lymphomas,Q28279743,P31,instance_of,scholarly article,Q13442814
+Aggressive lymphomas,Q28279743,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+toxicity,Q274160,P31,instance_of,concept,Q151885
+toxicity,Q274160,P31,instance_of,type of property,Q96253971
+toxicity,Q274160,P279,subclass_of,quality,Q1207505
+T-cell lymphomas,Q39731874,P31,instance_of,scholarly article,Q13442814
+T-cell lymphomas,Q39731874,P31,instance_of,review article,Q7318358
+Hodgkin lymphomas in HIV/AIDS patients when treated with combined antiretroviral therapy: further studies are needed for understanding the pathogenesis of developing Hodgkin lymphomas in HIV,Q87098842,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+T-cell lymphomas,Q39731874,P31,instance_of,scholarly article,Q13442814
+T-cell lymphomas,Q39731874,P31,instance_of,review article,Q7318358
+Hodgkin lymphomas in HIV/AIDS patients when treated with combined antiretroviral therapy: further studies are needed for understanding the pathogenesis of developing Hodgkin lymphomas in HIV,Q87098842,P31,instance_of,scholarly article,Q13442814
+histiocytic and dendritic cell cancer,Q18556903,P31,instance_of,class of disease,Q112193867
+histiocytic and dendritic cell cancer,Q18556903,P279,subclass_of,hematologic cancer,Q18975047
+histiocytic and dendritic cell cancer,Q18556903,P279,subclass_of,lymphoid hemopathy,Q55785694
+Lymphoid neoplasia associated with the acquired immunodeficiency syndrome (AIDS). The New York University Medical Center experience with 105 patients (1981-1986),Q68319847,P31,instance_of,scholarly article,Q13442814
+T-cell lymphomas,Q39731874,P31,instance_of,scholarly article,Q13442814
+T-cell lymphomas,Q39731874,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+T-cell lymphomas,Q39731874,P31,instance_of,scholarly article,Q13442814
+T-cell lymphomas,Q39731874,P31,instance_of,review article,Q7318358
+lymphoproliferative disorders,Q4165484,P31,instance_of,class of disease,Q112193867
+lymphoproliferative disorders,Q4165484,P279,subclass_of,immunoproliferative disorder,Q8578535
+lymphoproliferative disorders,Q4165484,P279,subclass_of,primary immunodeficiency disease,Q3043160
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+lymphoma,Q208414,P31,instance_of,class of disease,Q112193867
+lymphoma,Q208414,P31,instance_of,symptom or sign,Q112965645
+lymphoma,Q208414,P279,subclass_of,hematologic cancer,Q18975047
+lymphoma,Q208414,P279,subclass_of,lymphatic system cancer,Q18553634
+lymphoma,Q208414,P279,subclass_of,lymphoma and pseudolymphoma,Q1537773
+lymphoma,Q208414,P279,subclass_of,lymphoid neoplasm,Q55950048
+lymphoma,Q208414,P279,subclass_of,disease,Q12136
+non-Hodgkin lymphoma,Q1138590,P31,instance_of,class of disease,Q112193867
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,lymphoma,Q208414
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,neoplasm,Q1216998
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,hematopoietic system disease,Q1963588
+non-Hodgkin lymphoma,Q1138590,P279,subclass_of,disease,Q12136
+gastrointestinal lymphoma,Q18558049,P31,instance_of,class of disease,Q112193867
+gastrointestinal lymphoma,Q18558049,P279,subclass_of,gastrointestinal system cancer,Q5526839
+gastrointestinal lymphoma,Q18558049,P279,subclass_of,gastrointestinal system disease,Q2300099
+gastrointestinal lymphoma,Q18558049,P279,subclass_of,non-Hodgkin lymphoma,Q1138590
+gastrointestinal lymphoma,Q18558049,P279,subclass_of,lymphoma,Q208414
+Gastrointestinal lymphomas,Q70574770,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+T-cell lymphoma,Q7667896,P31,instance_of,class of disease,Q112193867
+T-cell lymphoma,Q7667896,P279,subclass_of,non-Hodgkin lymphoma,Q1138590
+T-cell lymphoma,Q7667896,P279,subclass_of,T-cell neoplasm,Q19000586
+T-cell lymphoma,Q7667896,P31,instance_of,class of disease,Q112193867
+T-cell lymphoma,Q7667896,P279,subclass_of,non-Hodgkin lymphoma,Q1138590
+T-cell lymphoma,Q7667896,P279,subclass_of,T-cell neoplasm,Q19000586
+T-cell lymphoma,Q7667896,P31,instance_of,class of disease,Q112193867
+T-cell lymphoma,Q7667896,P279,subclass_of,non-Hodgkin lymphoma,Q1138590
+T-cell lymphoma,Q7667896,P279,subclass_of,T-cell neoplasm,Q19000586
+T-cell lymphoma,Q7667896,P31,instance_of,class of disease,Q112193867
+T-cell lymphoma,Q7667896,P279,subclass_of,non-Hodgkin lymphoma,Q1138590
+T-cell lymphoma,Q7667896,P279,subclass_of,T-cell neoplasm,Q19000586
+T-cell lymphomas,Q39731874,P31,instance_of,scholarly article,Q13442814
+T-cell lymphomas,Q39731874,P31,instance_of,review article,Q7318358
+B-cell lymphoma,Q4833719,P31,instance_of,class of disease,Q112193867
+B-cell lymphoma,Q4833719,P279,subclass_of,non-Hodgkin lymphoma,Q1138590
+B-cell lymphoma,Q4833719,P279,subclass_of,leukocyte disease,Q18558143
+B-cell lymphoma,Q4833719,P279,subclass_of,immune disorder,Q3843811
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+T-cell lymphomas,Q39731874,P31,instance_of,scholarly article,Q13442814
+T-cell lymphomas,Q39731874,P31,instance_of,review article,Q7318358
+gastrointestinal lymphoma,Q18558049,P31,instance_of,class of disease,Q112193867
+gastrointestinal lymphoma,Q18558049,P279,subclass_of,gastrointestinal system cancer,Q5526839
+gastrointestinal lymphoma,Q18558049,P279,subclass_of,gastrointestinal system disease,Q2300099
+gastrointestinal lymphoma,Q18558049,P279,subclass_of,non-Hodgkin lymphoma,Q1138590
+gastrointestinal lymphoma,Q18558049,P279,subclass_of,lymphoma,Q208414
+gastrointestinal tract,Q11829360,P31,instance_of,anatomical structure,Q4936952
+gastrointestinal tract,Q11829360,P279,subclass_of,viscus,Q546191
+gastrointestinal tract,Q11829360,P279,subclass_of,organ,Q712378
+Primary extranodal malignant lymphoma,Q43685450,P31,instance_of,scholarly article,Q13442814
+Primary extranodal malignant lymphoma,Q43685450,P31,instance_of,review article,Q7318358
+Gastrointestinal lymphomas,Q70574770,P31,instance_of,scholarly article,Q13442814
+lymphoma,Q208414,P31,instance_of,class of disease,Q112193867
+lymphoma,Q208414,P31,instance_of,symptom or sign,Q112965645
+lymphoma,Q208414,P279,subclass_of,hematologic cancer,Q18975047
+lymphoma,Q208414,P279,subclass_of,lymphatic system cancer,Q18553634
+lymphoma,Q208414,P279,subclass_of,lymphoma and pseudolymphoma,Q1537773
+lymphoma,Q208414,P279,subclass_of,lymphoid neoplasm,Q55950048
+lymphoma,Q208414,P279,subclass_of,disease,Q12136
+pseudolymphoma,Q1592207,P31,instance_of,disease,Q12136
+pseudolymphoma,Q1592207,P279,subclass_of,benign neoplasm,Q1417240
+pseudolymphoma,Q1592207,P279,subclass_of,lymphoma and pseudolymphoma,Q1537773
+celiac disease,Q11088,P31,instance_of,class of disease,Q112193867
+celiac disease,Q11088,P31,instance_of,symptom or sign,Q112965645
+celiac disease,Q11088,P279,subclass_of,autoimmune disease of gastrointestinal tract,Q18553608
+celiac disease,Q11088,P279,subclass_of,gluten-related disorder,Q1367782
+celiac disease,Q11088,P279,subclass_of,disease,Q12136
+celiac disease,Q11088,P780,symptoms,diarrhea,Q40878
+celiac disease,Q11088,P780,symptoms,constipation,Q178436
+celiac disease,Q11088,P780,symptoms,vomiting,Q127076
+celiac disease,Q11088,P780,symptoms,nausea,Q186889
+Lymphoma of the skin,Q34160346,P31,instance_of,scholarly article,Q13442814
+Lymphoma of the skin,Q34160346,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Cutaneous Lymphomas,Q57304512,P31,instance_of,scholarly article,Q13442814
+Cutaneous Lymphomas,Q57304512,P31,instance_of,review article,Q7318358
+cutaneous lymphoma,Q1794643,P31,instance_of,class of disease,Q112193867
+cutaneous lymphoma,Q1794643,P279,subclass_of,primary organ-specific lymphoma,Q55786911
+cutaneous lymphoma,Q1794643,P279,subclass_of,genetic hematologic disease,Q55785542
+cutaneous lymphoma,Q1794643,P279,subclass_of,skin tumor or hamartoma,Q55788604
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+cutaneous lymphoma,Q1794643,P31,instance_of,class of disease,Q112193867
+cutaneous lymphoma,Q1794643,P279,subclass_of,primary organ-specific lymphoma,Q55786911
+cutaneous lymphoma,Q1794643,P279,subclass_of,genetic hematologic disease,Q55785542
+cutaneous lymphoma,Q1794643,P279,subclass_of,skin tumor or hamartoma,Q55788604
+T-cell lymphomas,Q39731874,P31,instance_of,scholarly article,Q13442814
+T-cell lymphomas,Q39731874,P31,instance_of,review article,Q7318358
+peripheral T-cell lymphoma,Q7168693,P31,instance_of,class of disease,Q112193867
+peripheral T-cell lymphoma,Q7168693,P279,subclass_of,mature T-cell and NK-cell lymphoma,Q18553445
+Cutaneous T-cell lymphomas,Q70531771,P31,instance_of,scholarly article,Q13442814
+Extranodal lymphoma,Q28274867,P31,instance_of,scholarly article,Q13442814
+Extranodal lymphoma,Q28274867,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Extranodal lymphomas,Q93721048,P31,instance_of,scholarly article,Q13442814
+primary immunodeficiency disease,Q3043160,P31,instance_of,designated intractable/rare diseases,Q42303753
+primary immunodeficiency disease,Q3043160,P31,instance_of,class of disease,Q112193867
+primary immunodeficiency disease,Q3043160,P279,subclass_of,immune disorder,Q3843811
+primary immunodeficiency disease,Q3043160,P279,subclass_of,disease,Q12136
+autoimmune disease,Q8084905,P31,instance_of,class of disease,Q112193867
+autoimmune disease,Q8084905,P279,subclass_of,hypersensitivity,Q5958765
+autoimmune disease,Q8084905,P279,subclass_of,disease,Q12136
+autoimmune disease,Q8084905,P279,subclass_of,immune disorder,Q3843811
+autoimmune disease,Q8084905,P279,subclass_of,primary immunodeficiency disease,Q3043160
+infectious disease,Q18123741,P31,instance_of,class of disease,Q112193867
+infectious disease,Q18123741,P279,subclass_of,disease,Q12136
+infectious disease,Q18123741,P279,subclass_of,infection associated with diseases,Q42417296
+Immunologic disorders in neonatal foals,Q36211050,P31,instance_of,scholarly article,Q13442814
+Immunologic disorders in neonatal foals,Q36211050,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Hodgkin's and non-Hodgkin's lymphoma of the head and neck,Q34378108,P31,instance_of,scholarly article,Q13442814
+malignancy,Q1483951,P31,instance_of,disease attributes,Q54932064
+malignancy,Q1483951,P279,subclass_of,medical attribute,Q44476427
+malignancy,Q1483951,P279,subclass_of,health risk,Q87075524
+Extranodal lymphoma,Q28274867,P31,instance_of,scholarly article,Q13442814
+Extranodal lymphoma,Q28274867,P31,instance_of,review article,Q7318358
+feline leukemia,Q1736908,P279,subclass_of,cancer in cats,Q5031441
+feline leukemia,Q1736908,P279,subclass_of,leukemia,Q29496
+feline leukemia,Q1736908,P279,subclass_of,Retroviridae infectious disease,Q19000689
+Gastrointestinal (GI) Tract Microbiome-Derived Neurotoxins-Potent Neuro-Inflammatory Signals From the GI Tract via the Systemic Circulation Into the Brain,Q89967201,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Extranodal lymphomas,Q93721048,P31,instance_of,scholarly article,Q13442814
+feline leukemia,Q1736908,P279,subclass_of,cancer in cats,Q5031441
+feline leukemia,Q1736908,P279,subclass_of,leukemia,Q29496
+feline leukemia,Q1736908,P279,subclass_of,Retroviridae infectious disease,Q19000689
+Extranodal lymphoma,Q28274867,P31,instance_of,scholarly article,Q13442814
+Extranodal lymphoma,Q28274867,P31,instance_of,review article,Q7318358
+Extranodal lymphoma,Q28274867,P31,instance_of,scholarly article,Q13442814
+Extranodal lymphoma,Q28274867,P31,instance_of,review article,Q7318358
+tumor,Q133212,P279,subclass_of,neoplasm,Q1216998
+Extranodal lymphoma,Q28274867,P31,instance_of,scholarly article,Q13442814
+Extranodal lymphoma,Q28274867,P31,instance_of,review article,Q7318358
+Nasal lymphomas in Japan: a high prevalence of Epstein-Barr virus type A and deletion within the latent membrane protein gene.,Q45745453,P31,instance_of,scholarly article,Q13442814
+follicular lymphoma,Q123251,P31,instance_of,class of disease,Q112193867
+follicular lymphoma,Q123251,P279,subclass_of,B-cell lymphoma,Q4833719
+Immunochemotherapies versus chemotherapy as adjuvant treatment after curative resection of operable breast cancer,Q34385509,P31,instance_of,scholarly article,Q13442814
+follicular lymphoma,Q123251,P31,instance_of,class of disease,Q112193867
+follicular lymphoma,Q123251,P279,subclass_of,B-cell lymphoma,Q4833719
+M7-FLIPI is not prognostic in follicular lymphoma patients with first-line rituximab chemo-free therapy,Q92686534,P31,instance_of,scholarly article,Q13442814
+neoplasm,Q1216998,P279,subclass_of,disease,Q12136
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+lymphadenopathy,Q847726,P31,instance_of,symptom or sign,Q112965645
+lymphadenopathy,Q847726,P279,subclass_of,immune disorder,Q3843811
+lymphadenopathy,Q847726,P279,subclass_of,lymph node disease,Q18558262
+lymphadenopathy,Q847726,P279,subclass_of,clinical sign,Q1441305
+lymphadenopathy,Q847726,P279,subclass_of,lymphatic system symptom,Q102186753
+follicular lymphoma,Q123251,P31,instance_of,class of disease,Q112193867
+follicular lymphoma,Q123251,P279,subclass_of,B-cell lymphoma,Q4833719
+B-cell lymphoma,Q4833719,P31,instance_of,class of disease,Q112193867
+B-cell lymphoma,Q4833719,P279,subclass_of,non-Hodgkin lymphoma,Q1138590
+B-cell lymphoma,Q4833719,P279,subclass_of,leukocyte disease,Q18558143
+B-cell lymphoma,Q4833719,P279,subclass_of,immune disorder,Q3843811
+high grade B-cell lymphoma with MYC and/or BCL2 and/or BCL6 rearrangement,Q55788362,P31,instance_of,class of disease,Q112193867
+high grade B-cell lymphoma with MYC and/or BCL2 and/or BCL6 rearrangement,Q55788362,P279,subclass_of,aggressive B-cell non-Hodgkin lymphoma,Q55787212
+Translocations,Q80890067,P31,instance_of,scholarly article,Q13442814
+Waldenström macroglobulinemia,Q1778287,P31,instance_of,class of disease,Q112193867
+Waldenström macroglobulinemia,Q1778287,P279,subclass_of,B-cell lymphoma,Q4833719
+Waldenström macroglobulinemia,Q1778287,P279,subclass_of,lymphoplasmacytic lymphoma,Q3832894
+Waldenström macroglobulinemia,Q1778287,P279,subclass_of,disease,Q12136
+Waldenström macroglobulinemia,Q1778287,P780,symptoms,macroglobulinemia,Q4118092
+Small lymphocytic lymphoma/chronic lymphocytic leukemia in a pelvic myelolipoma,Q36800217,P31,instance_of,scholarly article,Q13442814
+Small lymphocytic lymphoma/chronic lymphocytic leukemia in a pelvic myelolipoma,Q36800217,P31,instance_of,case report,Q2782326
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+rituximab,Q412323,P31,instance_of,type of chemical entity,Q113145171
+rituximab,Q412323,P279,subclass_of,chemical compound,Q11173
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+follicular lymphoma,Q123251,P31,instance_of,class of disease,Q112193867
+follicular lymphoma,Q123251,P279,subclass_of,B-cell lymphoma,Q4833719
+Richter's syndrome,Q938329,P31,instance_of,class of disease,Q112193867
+Richter's syndrome,Q938329,P279,subclass_of,chronic lymphocytic leukemia,Q1088156
+Richter's syndrome,Q938329,P279,subclass_of,disease,Q12136
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Aggressive lymphomas,Q28279743,P31,instance_of,scholarly article,Q13442814
+Aggressive lymphomas,Q28279743,P31,instance_of,review article,Q7318358
+neoplasm,Q1216998,P279,subclass_of,disease,Q12136
+Hodgkin's Lymphomas: A Tumor Recognized by Its Microenvironment,Q34235750,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358

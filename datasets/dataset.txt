@@ -1,0 +1,100 @@
+Non-Hodgkin lymphoma
+Lymphomas can affect any organ in the body, present with a wide range of symptoms, and be seen by primary care physicians and physicians from most specialties. They are traditionally divided into Hodgkin's lymphoma (which accounts for about 10% of all lymphomas) and non-Hodgkin lymphoma, which is the topic of this Seminar. Non-Hodgkin lymphoma represents a wide spectrum of illnesses that vary from the most indolent to the most aggressive malignancies. They arise from lymphocytes that are at various stages of development, and the characteristics of the specific lymphoma subtype reflect those of the cell from which they originated. Since this topic was last reviewed in The Lancet in 2012, advances in understanding the biology and genetics of non-Hodgkin lymphoma and the availability of new diagnostic methods and therapies have improved our ability to manage patients with this disorder.
+
+Overview of lymphoma diagnosis and management
+The malignant lymphomas, including both Hodgkin lymphoma (HL) and non-Hodgkin lymphoma (NHL), represent a diverse group of diseases that arise from a clonal proliferation of lymphocytes. Each of the more than 30 unique types of lymphoma is a disease with a distinct natural history. This biologic heterogeneity gives rise to marked differences among the lymphomas with respect to epidemiology, pathologic characteristics, clinical presentation, and optimal management. This article emphasizes the principles of diagnosis, including appropriate pathologic evaluation and staging considerations, and focuses on the clinical presentation, staging, and optimal management strategies for the most common types of lymphoma.
+
+Lymphoma
+Lymphomas may be broadly divided into non-Hodgkin (90%) and Hodgkin (10%) types. Most lymphomas (90%) are of B cell origin but can also be T cell or natural killer cell. Clinical management of indolent and aggressive lymphomas is different. Aggressive lymphomas are more dangerous if left untreated yet a higher cell proliferation rate also renders them more chemosensitive, so they are managed with curative intent. Indolent lymphomas are, for the most part, incurable, such that quality of life must be balanced against toxicity of treatment in deciding when and how to treat.
+
+Lymphoma classification update: T-cell lymphomas, Hodgkin lymphomas, and histiocytic/dendritic cell neoplasms
+Lymphomas are classified based on the normal counterpart, or cell of origin, from which they arise. Because lymphocytes have physiologic immune functions that vary both by lineage and by stage of differentiation, the classification of lymphomas arising from these normal lymphoid populations is complex. Recent genomic data have contributed additional depth to this complexity. Areas covered: Lymphoma classification follows the World Health Organization (WHO) system, which reflects international consensus and is based on pathological, genetic, and clinical factors. The present review focuses on the classification of T-cell lymphomas, Hodgkin lymphomas, and histiocytic and dendritic cell neoplasms, summarizing changes reflected in the 2016 revision to the WHO classification. These changes are critical to hematologists and other clinicians who care for patients with these disorders. Expert commentary: Lymphoma classification is a continually evolving field that needs to be responsive to new clinical, pathological, and molecular understanding of lymphoid neoplasia. Among the entities covered in this review, the 2016 revisions in the WHO classification particularly impact T-cell lymphomas, including a new umbrella category of T-follicular helper cell-derived lymphomas and evolving recognition of indolent T-cell lymphomas and lymphoproliferative disorders.
+
+Diagnosis and classification of lymphoma: Impact of technical advances
+Our current understanding of the normal lymphoid system informs the modern classification of lymphomas. B-cell, T-cell, and natural killer-cell neoplasms often recapitulate normal stages of lymphoid cell differentiation and function. Moreover, the clinical manifestations of lymphomas often reflect the normal function of lymphoid cells in vivo. The multiparameter approach to classification adopted by the Revised European and American Lymphoma and subsequent WHO classifications facilitates the interpretation of clinical and translational studies, and provides a framework for the discovery of molecular alterations that drive these tumors. An accurate and precise classification of disease entities facilitates the discovery of the molecular basis of lymphoid neoplasms in the basic science laboratory, and leads to new diagnostic tools that play a role in clinical diagnosis.
+
+Feline gastrointestinal lymphoma: mucosal architecture, immunophenotype, and molecular clonality
+Gastrointestinal lymphomas were identified in 120 cats between 1995 and 2006. Lymphomas were classified according to the World Health Organization (WHO) scheme. Cats with mucosal T-cell lymphoma (n = 84) predominated and had a median survival of 29 months. Mucosal T-cell lymphoma matched WHO enteropathy-associated T-cell lymphoma (EATCL) type II. Epitheliotropic T-cell infiltrates were present in 62% of cats and occurred as clusters or diffuse infiltrates of small to intermediate-sized T cells in villous and/or crypt epithelium. Similar lymphocytes infiltrated the lamina propria in distinctive patterns. Cats with transmural T-cell lymphoma (n = 19) had a median survival of 1.5 months. Transmural T-cell lymphoma matched WHO EATCL type I. Epitheliotropic T-cell infiltrates were present in 58% of cats. Large lymphocytes (n = 11), mostly with cytoplasmic granules (LGL-granzyme B+) (n = 9) predominated. Transmural extension across the muscularis propria characterized the lesion. Both mucosal and transmural T-cell lymphomas were largely confined to the small intestine, and molecular clonality analysis revealed clonal or oligoclonal rearrangements of T-cell receptor-γ in 90% of cats. Cats with B-cell lymphoma (n = 19) had a median survival of 3.5 months. B-cell lymphomas occurred as transmural lesions in stomach, jejunum, and ileo-cecal-colic junction. The majority were diffuse, large B-cell lymphomas of centroblastic type. In conclusion, T-cell lymphomas characterized by distinctive mucosal architecture, CD3 expression, and clonal expansion predominated in the feline gastrointestinal tract.
+
+Gastrointestinal lymphoma
+The gastrointestinal tract is the commonest site for primary extranodal malignant lymphoma. Despite this, gastrointestinal lymphomas are rare and present diagnostic and conceptual challenges. Principal among these are the differential diagnoses of malignant lymphoma and carcinoma and malignant lymphoma and pseudolymphoma, especially in the stomach; the nature of Mediterranean lymphoma and of the lymphoma complicating celiac disease; and the conceptual basis for differentiation of follicular centre cell lymphomas in the intestine.
+
+Lymphoma of the skin
+This chapter describes the various ways in which the non-Hodgkin's lymphomas can involve the skin, how these diseases should be assessed, standard treatments available in 2002, and new directions in research. The goal of the session is to succinctly review recent developments in lymphoma classification and treatment as they apply to the unique aspects of lymphoma when manifest in the skin. In Section I, Dr. Eric Hsi reviews the special characteristics of the lymphomas seen when they proliferate in the skin and the application of the new World Health Organization classification system to the cutaneous lymphomas, emphasizing the unique challenges of recognizing and correctly classifying these diseases. He summarizes the evidence in favor of including the skin lymphomas in the overall lymphoma classification scheme and concludes with a practical description of the specific skin lymphoma entities. In Section II, Dr. Joseph Connors describes the current optimal treatment of the B-cell lymphomas when they present in or metastasize to the skin. Building on the classification scheme described by Dr. Hsi, Dr. Connors outlines a treatment approach based on current understanding of pathophysiology of these diseases and application of each of the effective modalities available for cutaneous lymphoma including radiation, chemotherapy, and immunotherapy. In Section III, Dr. Francine Foss concludes the session with a discussion of the different T-cell lymphomas that start in or spread to the skin concentrating on mycosis fungoides, cutaneous anaplastic large cell lymphoma and peripheral T-cell lymphoma. She includes comments on the newer anti-T-cell chemo- and immuno-therapeutics focusing on agents and techniques specific for cutaneous T-cell lymphomas.
+
+Extranodal lymphoma
+Lymphomas arising in extranodal sites are intriguing. The types of lymphomas encountered vary widely from one extranodal site to another. For many types of extranodal lymphomas, there are distinctive clinicopathologic features, sometimes including association with an underlying immunodeficiency syndrome, autoimmune disease, infection, or other immunologic disorder, or a predilection to affect patients of certain ethnic origins. Presented below is a review of lymphomas that are encountered most often in extranodal sites.
+
+Lymphoma at the extremes of age
+Objectives:
+        
+      
+      To provide a review of the unique features of both Hodgkin's and non-Hodgkin's lymphoma in pediatric and geriatric patient populations. Treatment approaches and nursing care interventions at the extremes of age will be discussed.
+    
+
+
+          Data sources:
+        
+      
+      Review articles, research studies, and book chapters.
+    
+
+
+          Conclusions:
+        
+      
+      Lymphoma is a highly heterogeneous malignancy whose classification and management have undergone significant evolution. Of particular concern has been lymphoma's prevalence and treatment at the extremes of age. Appropriate treatment by age and subtype remains controversial.
+    
+
+
+          Implications for nursing practice:
+        
+      
+      The nursing care of pediatric and geriatric patients with lymphoma presents numerous challenges in education, symptom management, and supportive care.
+
+Extranodal lymphoma in the cat: prognostic factors and treatment options
+Practical relevance:
+        
+      
+      The majority of feline lymphoma is extranodal. While the gastrointestinal (GI) tract is the most commonly affected site, non-GI extranodal lymphomas, which are the focus of this review, account for a large proportion of lymphomas in cats. This article discusses prognostic factors for the most common of these extranodal lymphomas, both in general terms and specifically for individual sites.
+    
+
+
+          Clinical challenges:
+        
+      
+      Prognostic factors remain poorly defined for feline lymphoma. Many cats with extranodal lymphoma have stage I disease at an accessible site. A major question for patients with apparently localised extranodal lymphoma is whether the tumour can be treated with localised therapy alone or requires systemic treatment as well. Again there is often no specific information available for a particular site, such as a localised intramuscular lymphoma. Instead, reliance must be placed on careful patient staging, particularly if local therapy alone is planned.
+    
+
+
+          Evidence base:
+        
+      
+      Until such time as further studies looking at stage, anatomic site, histological grade and immunophenotype are available to assist treatment decision making for an individual cat with extranodal lymphoma, it seems reasonable to draw inferences from other common extranodal sites for which more specific information exists, such as nasal lymphoma.
+
+Precision medicine and lymphoma
+Purpose of review:
+        
+      
+      The treatment of the germinal center lymphomas, diffuse large B cell (DLBCL) and follicular lymphoma, has changed little beyond the introduction of immunochemotherapies. However, there exists a substantial group of patients within both diseases for which improvements in care will involve appropriate tailoring of treatment.
+    
+
+
+          Recent findings:
+        
+      
+      DLBCL consists of two major subtypes with striking differences in their clinical outcomes paralleling their underlying genetic heterogeneity. Recent studies have seen advances in the stratification of germinal center lymphomas, through comprehensive profiling of 1001 DLBCLs alongside refinements in the identification of high-risk follicular lymphoma patients using m7-FLIPI and 23G models. A new wave of novel therapeutic agents is now undergoing clinical trials for germinal center lymphomas, with BCR and EZH2 inhibitors demonstrating preferential benefit in subgroups of patients. The emergence of cell-free DNA has raised the possibility of dynamic disease monitoring to potentially mitigate the complexity of spatial and temporal heterogeneity, whilst predicting tumor evolution in real time.
+    
+
+
+          Summary:
+        
+      
+      Altogether knowledge of the genomic landscape of germinal center lymphomas is offering welcome opportunities in patient risk stratification and therapeutics. The challenge ahead is to establish how best to combine upfront or dynamic prognostication with precision therapies, while retaining practicality in clinical trials and the real-world setting.
+
+An update in treating transformed lymphoma
+Indolent lymphomas typically have a prolonged course and favorable prognosis. Recent data support survival times that can reach several decades, even if periodic treatment is needed to manage symptoms or stabilize disease. However, all indolent lymphomas have the potential to undergo transformation to an aggressive phenotype, clinically characterized by a rapid progression of adenopathy, new-onset constitutional symptoms, or laboratory abnormalities, and the immediate need for therapeutic intervention. The most common scenario is transformation of follicular lymphoma to either diffuse large B-cell lymphoma or high-grade B-cell lymphoma with MYC and BCL2 and/or BCL6 translocations; however, other indolent subtypes such as marginal zone lymphoma, lymphoplasmacytic lymphoma, small lymphocytic lymphoma/chronic lymphocytic leukemia, or even nodular lymphocyte predominant Hodgkin lymphoma, can undergo similar histologic transformation. The prognosis of transformed lymphomas has historically been quite poor, but there is ample evidence this is changing in the rituximab era. This article will provide a review of transformed lymphomas with an emphasis on treatment and the nuances of diagnosis and clinical management. Unless otherwise specified, all discussion in this review pertains to transformed follicular lymphoma which is the more common scenario and the subtype with the most robust data. In many cases, this information can be extrapolated and applied to other indolent histologies (i.e. transformed marginal zone lymphoma); however, several other clinical scenarios, such as Richter's transformation and "double hit" transformations, warrant a distinct discussion and will be reviewed separately.
+
+Pathology of lymphoma progression
+Reflecting the stepwise process of oncogenesis, lymphomas may cumulatively develop a more aggressive phenotype during the course of disease, a process referred to as lymphoma progression. Although morphological, clinical and biological aspects of lymphoma progression do not always overlap, changes in lymphoma morphology frequently indicate alterations in the clinical and biological behaviour of the disease. Indolent and aggressive lymphomas in disease progression can either be clonally related or represent clonally unrelated neoplasms. We propose to use the term 'lymphoma progression' in a biological sense denoting only clonal development of and within a lymphoma entity. The term 'composite lymphoma' should be used as a merely descriptive morphological designation for different lymphoma entities in one individual irrespective of clonal relationship. Many types of aggressive B-cell non-Hodgkin's lymphomas and Hodgkin's lymphomas are reported to secondarily develop in lymphoma progression. Genetic changes associated with lymphoma progression frequently abrogate the differentiating effects of alterations occurring in indolent lymphomas, leading to increased cell proliferation. Within different lymphoma entities, high-risk disease variants mimicking lymphoma progression exist.
+
