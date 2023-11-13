@@ -61,7 +61,7 @@ def get_rl():
     object_properties = [str(row[0]).split('#')[-1] for row in results]
     
     p_dc = {
-    'P31': 'instance_of', 'P279': 'subclass_of', 'P1550': 'orphanet_id', 'P924': 'medical_treatment', 'P486': 'MeSH_ID', 'P699': 'Disease_Ontology_ID', 'P769': 'drug_interaction', 'P3382': 'gene', 'P2670': 'has_parts_of_the_class', 'P780': 'symptoms', 'P1060': 'pathogen_transmission', 'P686': 'gene_ontology_ID', 'P492': 'OMIM_ID', 'P5642': 'risk_factor', 'P682': 'biological_process', 'P557': 'diseases', 'P494': 'ICD-10', 'P493': 'ICD-9', 'P2079': 'by_means', 'P10228': 'channel_for', 'P856': 'site_of', 'P9059': 'subdivision_of'
+    'P31': 'instance_of', 'P279': 'subclass_of', 'P2293': 'is_a_medical_condition', 'P1554': 'orphanet_id', 'P486': 'MeSH_ID', 'P699': 'Disease_Ontology_ID', 'P1050': 'medical_treatment', 'P2176': 'drug_used_for_treatment', 'P2888': 'drug_interaction', 'P828': 'has_gene_location', 'P668': 'gene', 'P1199': 'drug_target', 'P2670': 'has_parts_of_the_class', 'P780': 'symptoms', 'P828': 'has_gene_location', 'P2175': 'clinical_features', 'P1120': 'affected_by', 'P486': 'MeSH_ID',  'P140': 'diseases', 'P491': 'ICD-10',  'P493': 'ICD-9'
     }
 
     li= [value for key, value in p_dc.items()]
