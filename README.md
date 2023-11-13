@@ -1,0 +1,2 @@
+# MedGraph-Biomedical-Knowledge-Graph-with-Mondo-Ontology
+MedGraph is a project focused to construct biomedical knowledge graph. It harnesses the power of pubMed for data retrieval, spaCy for NLP, Mondo Ontology for semantic enrichment, and pywikibot for integrating external knowledge. The final step involves deploying the graph onto the Neo4j database, creating a platform to explore medical information.
