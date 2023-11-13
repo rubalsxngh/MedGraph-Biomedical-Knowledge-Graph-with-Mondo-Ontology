@@ -3,21 +3,58 @@ this file contains helper functions to convert datafram suitable to upload on ne
 and a function load_gh() that deploys the data onto neo4J sandbox,
 this function also return the different labels of nodes upload on neo4j
 """
+from neo4j import GraphDatabase
+from pywikibot import WikidataBot
 
-
+class Neo4jConnection:
+    def __init__(self, uri, user, pwd):
+        self.__uri = uri
+        self.__user = user
+        self.__pwd = pwd
+        self.__driver = None
+        try:
+            self.__driver = GraphDatabase.driver(self.__uri, auth=(self.__user, self.__pwd))
+        except Exception as e:
+            print("Failed to create the driver:", e)
+        
+    def close(self):
+        if self.__driver is not None:
+            self.__driver.close()
+        
+    def query(self, query, parameters=None, db=None):
+        assert self.__driver is not None, "Driver not initialized!"
+        session = None
+        response = None
+        try: 
+            session = self.__driver.session(database=db) if db is not None else self.__driver.session() 
+            response = list(session.run(query, parameters))
+        except Exception as e:
+            print("Query failed:", e)
+        finally: 
+            if session is not None:
+                session.close()
+        return response
 
 def get_p31(row):
     import pywikibot
-    from pywikibot import WikidataBot
     
-    itempage = pywikibot.ItemPage(WikidataBot, row)
-    itemdata = itempage.get()
     try:
-        target = itemdata['claims']['P31'][0].getTarget()
-        target.get()
-        return target.labels['en']
-    except:
-        return 'Unknown'
+        site = pywikibot.Site("wikidata", "wikidata")
+        itempage = pywikibot.ItemPage(site, row)
+        
+        itemdata = itempage.get()
+        
+        # Check if 'P31' claim exists
+        if 'P31' in itemdata['claims']:
+            target = itemdata['claims']['P31'][0].target
+            return target.labels['en']
+        else:
+            return 'No P31 Claim'
+    
+    except pywikibot.exceptions.NoPage:
+        return 'Item does not exist'
+    except Exception as e:
+        return f'Error: {str(e)}'
     
 
 def add_nodes(conn, rows, batch_size=10000):
@@ -28,16 +65,6 @@ def add_nodes(conn, rows, batch_size=10000):
     '''
     return insert_data(conn, query, rows, batch_size)
 
-
-def add_edges(rows, batch_size=50000):
-    
-    
-    query = """UNWIND $rows AS row
-               MATCH (src:Node {id: row.source_q}), (tar:Node {id: row.target_q})
-               CREATE (src)-[:%s]->(tar)
-    """ % edge
-    
-    return insert_data(query, rows, batch_size)
 
 
 def insert_data(conn, query, rows, batch_size = 10000):
@@ -66,13 +93,17 @@ def insert_data(conn, query, rows, batch_size = 10000):
 the function load_gh takes connection detials and dataframe as an input and 
 loads the dataframe to neo4j
 """
-def load_gh(uri, passw, df):
+def load_gh(uril, passw, df_csv):
 
     #establishing a neo4j connection
     from neo4j import GraphDatabase
     import pandas as pd
-    conn = GraphDatabase.driver(uri, auth=("neo4j", passw))
+    try:
+        conn = Neo4jConnection(uri=uril, user="neo4j", pwd=passw)
+    except Exception as e:
+        print(e)
 
+    df= pd.read_csv(df_csv)
     #converting dataframe to nodes->rel->target and removing all the duplicates
     source_df = df[['source_name', 'source_q']].drop_duplicates()
     source_df.columns = ['name', 'id']
@@ -86,9 +117,20 @@ def load_gh(uri, passw, df):
     add_nodes(conn, all_nodes_df)
 
     edge_ls = df['rel_name'].unique().tolist()
+    print
 
+    def add_edges(rows, batch_size=50000):
+    
+        query = """UNWIND $rows AS row
+                MATCH (src:Node {id: row.source_q}), (tar:Node {id: row.target_q})
+                CREATE (src)-[:%s]->(tar)
+        """ % edge
+        
+        return insert_data(conn, query, rows, batch_size)
+    
     for edge in edge_ls:
         y = df[df['rel_name'] == edge]
+
         add_edges(y)
     
     y = all_nodes_df['node_label'].value_counts()
