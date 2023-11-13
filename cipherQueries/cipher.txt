@@ -2,7 +2,12 @@ MATCH (n:Node)
 FOREACH (ignoreMe IN CASE WHEN n.type = 'class of disease' THEN [1] ELSE [] END |
   SET n:ClassOfDisease REMOVE n:Node
 )
-FOREACH (ignoreMe IN CASE WHEN n.type = 'review article' THEN [1] ELSE [] END |
-  SET n:ReviewArticle REMOVE n:Node
+FOREACH (ignoreMe IN CASE WHEN n.type = 'scholarly article' THEN [1] ELSE [] END |
+  SET n:ScholaryArticle REMOVE n:Node
 )
-// Add more conditions as needed
+FOREACH (ignoreMe IN CASE WHEN n.type = 'medical entity type' THEN [1] ELSE [] END |
+  SET n:MedicalEntityType REMOVE n:Node
+)
+FOREACH (ignoreMe IN CASE WHEN n.type = 'biological process' THEN [1] ELSE [] END |
+  SET n:BiologicalProcess REMOVE n:Node
+)
