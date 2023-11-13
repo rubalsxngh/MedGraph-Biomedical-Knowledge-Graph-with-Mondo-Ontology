@@ -1,0 +1,8 @@
+MATCH (n:Node)
+FOREACH (ignoreMe IN CASE WHEN n.type = 'class of disease' THEN [1] ELSE [] END |
+  SET n:ClassOfDisease REMOVE n:Node
+)
+FOREACH (ignoreMe IN CASE WHEN n.type = 'review article' THEN [1] ELSE [] END |
+  SET n:ReviewArticle REMOVE n:Node
+)
+// Add more conditions as needed
