@@ -41,11 +41,11 @@ def map_relations(site, relations):
 In the get_rl function, we are extracting the defined relations from mondo ontology, 
 and then generating the P values
 """
-def get_rl():
+def get_rl(cwd_path):
     import pywikibot
     from rdflib import Graph, URIRef
-
-    ontology_file = r"d:/VIISem/knowledgeGraphUsingMondo/mondoOntology/mondo.owl"
+    ontology_file_path= cwd_path + "/mondoOntology/mondo.owl"
+    ontology_file = ontology_file_path
     g = Graph()
     g.parse(ontology_file, format="xml")
     owl = URIRef("http://www.w3.org/2002/07/owl#")

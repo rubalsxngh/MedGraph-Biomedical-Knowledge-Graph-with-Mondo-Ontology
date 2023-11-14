@@ -278,3 +278,27 @@ neoplasm,Q1216998,P279,subclass_of,disease,Q12136
 Hodgkin's Lymphomas: A Tumor Recognized by Its Microenvironment,Q34235750,P31,instance_of,scholarly article,Q13442814
 Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
 Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphoma of the Eyelid - An International Multicenter Retrospective Study,Q38956559,P31,instance_of,scholarly article,Q13442814
+skin appendages,Q1239288,P279,subclass_of,skin,Q1074
+skin appendages,Q1239288,P279,subclass_of,subdivision of epidermis,Q66568545
+central nervous system lymphoma,Q136312,P31,instance_of,class of disease,Q112193867
+central nervous system lymphoma,Q136312,P279,subclass_of,lymphoma,Q208414
+central nervous system lymphoma,Q136312,P279,subclass_of,central nervous system hematologic cancer,Q18557002
+Extranodal lymphomas,Q93721048,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+eye adnexa disease,Q18553495,P279,subclass_of,eye and adnexa disease,Q18554821
+central nervous system lymphoma,Q136312,P31,instance_of,class of disease,Q112193867
+central nervous system lymphoma,Q136312,P279,subclass_of,lymphoma,Q208414
+central nervous system lymphoma,Q136312,P279,subclass_of,central nervous system hematologic cancer,Q18557002
+Vitreoretinal lymphomas misdiagnosed as uveitis: Lessons learned from a case series.,Q37138022,P31,instance_of,scholarly article,Q13442814
+Primary vitreoretinal lymphomas display a remarkably restricted immunoglobulin gene repertoire,Q91728778,P31,instance_of,scholarly article,Q13442814
+NECTIN3,Q18037819,P31,instance_of,gene,Q7187
+NECTIN3,Q18037819,P279,subclass_of,protein-coding gene,Q20747295
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Ocular lymphomas,Q80372717,P31,instance_of,scholarly article,Q13442814

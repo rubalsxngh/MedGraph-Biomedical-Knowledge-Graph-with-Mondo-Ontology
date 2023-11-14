@@ -3,7 +3,7 @@ the function 'get_docx' scrappes the pubMed website,
 // we are only retrieving abstract of the articles, not the actual article, nothing illegal!
 """
 
-def get_docx(keyword_to_be_searched, no_of_article):
+def get_docx(keyword_to_be_searched, no_of_article, dataset_file_path):
 
     import requests
     from bs4 import BeautifulSoup
@@ -13,7 +13,7 @@ def get_docx(keyword_to_be_searched, no_of_article):
     articles_per_page = 10
     pages_to_scrape = (no_of_article - 1) // articles_per_page + 1
 
-    with open(f"D:/VIISem/knowledgeGraphUsingMondo/datasets/dataset.txt", "w", encoding="utf-8") as txt_file:
+    with open(dataset_file_path, "w", encoding="utf-8") as txt_file:
 
         for page in range(1, pages_to_scrape + 1):
             url = f"https://pubmed.ncbi.nlm.nih.gov/?term={keyword}&page={page}"

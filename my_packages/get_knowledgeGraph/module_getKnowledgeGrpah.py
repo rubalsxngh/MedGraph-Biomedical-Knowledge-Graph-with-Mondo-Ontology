@@ -28,24 +28,25 @@ def prettyPrint(variable):
     pp = pprint.PrettyPrinter(indent=4)
     pp.pprint(variable)
 
-def write2log(output_display, data):
-    with open("D:/VIISem/knowledgeGraphUsingMondo/ouput/output_log.txt", 'a') as fh:
-        fh.write(output_display + '\n')
+def write2log(output_display, data, log_file_path):
+    with open(log_file_path, 'a') as fh:
+        fh.write("\n")
+        fh.write(output_display + "\n")
         if isinstance(data, str):
-            fh.write(data + '\n')
+            fh.write(data + "\n")
         elif isinstance(data, (list, dict, tuple, set)):
             fh.write(str(data))
         else:
-            fh.write(data.text + '\n')
+            fh.write(data.text + "")
         
-        fh.write("/n")
+        fh.write("\n")
 
 """
 the get_gph function,
 input (dataset.txt) -> ouput (nodes.csv) to deploy it to neo4J
 """
 
-def get_gph():
+def get_gph(cwd_path, log_file_path, dataset_file_path):
 
     import spacy
     from spacy.lang.en.stop_words import STOP_WORDS
@@ -65,7 +66,7 @@ def get_gph():
     nlp.add_pipe('merge_noun_chunks')
 
     #2. Open the dataset.txt file for reading
-    with open('D:/VIISem/knowledgeGraphUsingMondo/datasets/dataset.txt', 'r') as file:
+    with open(dataset_file_path, 'r') as file:
         text = file.read() #reading the collected dataset into a string
         
 
@@ -87,7 +88,7 @@ def get_gph():
         if token not in ner_list and token.label_ in target_entity_types:
             ner_list.append(token)
     
-    write2log("the ner_list", ner_list)
+    write2log("the ner_list", ner_list, log_file_path)
     
     #5. sementic extraction
     token= os.getenv("WIKIDATA_API_KEY")
@@ -116,7 +117,7 @@ def get_gph():
         if item not in dedup_item_ls:
             dedup_item_ls.append(item)
     
-    write2log("Q-value extraction", dedup_item_ls)
+    write2log("Q-value extraction", dedup_item_ls, log_file_path)
 
     
     #6. relation extraction
@@ -126,8 +127,8 @@ def get_gph():
     for more informations.
     """
 
-    p_dc= module_getRelations.get_rl()
-    write2log("the relations list", p_dc)
+    p_dc= module_getRelations.get_rl(cwd_path)
+    write2log("the relations list", p_dc, log_file_path)
 
     #7. data frame creation
     full_node_tup_ls = []
@@ -156,13 +157,13 @@ def get_gph():
         print('the error occured at step 7')
     
     df= pd.DataFrame(full_node_tup_ls, columns=['source_name', 'source_q', 'rel_p', 'rel_name', 'target_name', 'target_q'])
-
-    with open("D:/VIISem/knowledgeGraphUsingMondo/ouput/dataframe_srt.csv", 'w') as fh:
+    output_df_path= cwd_path+ "/ouput/dataframe_srt.csv"
+    with open(output_df_path, 'w') as fh:
         pass
 
-    df.to_csv("D:/VIISem/knowledgeGraphUsingMondo/ouput/dataframe_srt.csv", index= False)
+    df.to_csv(output_df_path, index= False)
     
-    return df
+    return output_df_path
 
 
             
