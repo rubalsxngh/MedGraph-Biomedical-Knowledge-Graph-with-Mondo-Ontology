@@ -29,6 +29,7 @@ The goal of the MedGraph project is to create an extensive biological knowledge 
 
 **Ouput Sample**
 ![Graph output](https://i.imgur.com/rggrcuB.png)
+
 ![Cipher query example](https://i.imgur.com/1NzjULa.png)
 
 **Contributers**
