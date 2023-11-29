@@ -157,29 +157,13 @@ celiac disease,Q11088,P780,symptoms,diarrhea,Q40878
 celiac disease,Q11088,P780,symptoms,constipation,Q178436
 celiac disease,Q11088,P780,symptoms,vomiting,Q127076
 celiac disease,Q11088,P780,symptoms,nausea,Q186889
-Lymphoma of the skin,Q34160346,P31,instance_of,scholarly article,Q13442814
-Lymphoma of the skin,Q34160346,P31,instance_of,review article,Q7318358
-Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
-Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
-Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
-Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
-Cutaneous Lymphomas,Q57304512,P31,instance_of,scholarly article,Q13442814
-Cutaneous Lymphomas,Q57304512,P31,instance_of,review article,Q7318358
-cutaneous lymphoma,Q1794643,P31,instance_of,class of disease,Q112193867
-cutaneous lymphoma,Q1794643,P279,subclass_of,primary organ-specific lymphoma,Q55786911
-cutaneous lymphoma,Q1794643,P279,subclass_of,genetic hematologic disease,Q55785542
-cutaneous lymphoma,Q1794643,P279,subclass_of,skin tumor or hamartoma,Q55788604
-Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
-Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
-cutaneous lymphoma,Q1794643,P31,instance_of,class of disease,Q112193867
-cutaneous lymphoma,Q1794643,P279,subclass_of,primary organ-specific lymphoma,Q55786911
-cutaneous lymphoma,Q1794643,P279,subclass_of,genetic hematologic disease,Q55785542
-cutaneous lymphoma,Q1794643,P279,subclass_of,skin tumor or hamartoma,Q55788604
-T-cell lymphomas,Q39731874,P31,instance_of,scholarly article,Q13442814
-T-cell lymphomas,Q39731874,P31,instance_of,review article,Q7318358
-peripheral T-cell lymphoma,Q7168693,P31,instance_of,class of disease,Q112193867
-peripheral T-cell lymphoma,Q7168693,P279,subclass_of,mature T-cell and NK-cell lymphoma,Q18553445
-Cutaneous T-cell lymphomas,Q70531771,P31,instance_of,scholarly article,Q13442814
+follicular lymphoma,Q123251,P31,instance_of,class of disease,Q112193867
+follicular lymphoma,Q123251,P279,subclass_of,B-cell lymphoma,Q4833719
+Immunochemotherapies versus chemotherapy as adjuvant treatment after curative resection of operable breast cancer,Q34385509,P31,instance_of,scholarly article,Q13442814
+follicular lymphoma,Q123251,P31,instance_of,class of disease,Q112193867
+follicular lymphoma,Q123251,P279,subclass_of,B-cell lymphoma,Q4833719
+M7-FLIPI is not prognostic in follicular lymphoma patients with first-line rituximab chemo-free therapy,Q92686534,P31,instance_of,scholarly article,Q13442814
+neoplasm,Q1216998,P279,subclass_of,disease,Q12136
 Extranodal lymphoma,Q28274867,P31,instance_of,scholarly article,Q13442814
 Extranodal lymphoma,Q28274867,P31,instance_of,review article,Q7318358
 Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
@@ -203,37 +187,29 @@ Immunologic disorders in neonatal foals,Q36211050,P31,instance_of,scholarly arti
 Immunologic disorders in neonatal foals,Q36211050,P31,instance_of,review article,Q7318358
 Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
 Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
-Hodgkin's and non-Hodgkin's lymphoma of the head and neck,Q34378108,P31,instance_of,scholarly article,Q13442814
-malignancy,Q1483951,P31,instance_of,disease attributes,Q54932064
-malignancy,Q1483951,P279,subclass_of,medical attribute,Q44476427
-malignancy,Q1483951,P279,subclass_of,health risk,Q87075524
-Extranodal lymphoma,Q28274867,P31,instance_of,scholarly article,Q13442814
-Extranodal lymphoma,Q28274867,P31,instance_of,review article,Q7318358
-feline leukemia,Q1736908,P279,subclass_of,cancer in cats,Q5031441
-feline leukemia,Q1736908,P279,subclass_of,leukemia,Q29496
-feline leukemia,Q1736908,P279,subclass_of,Retroviridae infectious disease,Q19000689
-Gastrointestinal (GI) Tract Microbiome-Derived Neurotoxins-Potent Neuro-Inflammatory Signals From the GI Tract via the Systemic Circulation Into the Brain,Q89967201,P31,instance_of,scholarly article,Q13442814
+Lymphoma of the skin,Q34160346,P31,instance_of,scholarly article,Q13442814
+Lymphoma of the skin,Q34160346,P31,instance_of,review article,Q7318358
 Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
 Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
-Extranodal lymphomas,Q93721048,P31,instance_of,scholarly article,Q13442814
-feline leukemia,Q1736908,P279,subclass_of,cancer in cats,Q5031441
-feline leukemia,Q1736908,P279,subclass_of,leukemia,Q29496
-feline leukemia,Q1736908,P279,subclass_of,Retroviridae infectious disease,Q19000689
-Extranodal lymphoma,Q28274867,P31,instance_of,scholarly article,Q13442814
-Extranodal lymphoma,Q28274867,P31,instance_of,review article,Q7318358
-Extranodal lymphoma,Q28274867,P31,instance_of,scholarly article,Q13442814
-Extranodal lymphoma,Q28274867,P31,instance_of,review article,Q7318358
-tumor,Q133212,P279,subclass_of,neoplasm,Q1216998
-Extranodal lymphoma,Q28274867,P31,instance_of,scholarly article,Q13442814
-Extranodal lymphoma,Q28274867,P31,instance_of,review article,Q7318358
-Nasal lymphomas in Japan: a high prevalence of Epstein-Barr virus type A and deletion within the latent membrane protein gene.,Q45745453,P31,instance_of,scholarly article,Q13442814
-follicular lymphoma,Q123251,P31,instance_of,class of disease,Q112193867
-follicular lymphoma,Q123251,P279,subclass_of,B-cell lymphoma,Q4833719
-Immunochemotherapies versus chemotherapy as adjuvant treatment after curative resection of operable breast cancer,Q34385509,P31,instance_of,scholarly article,Q13442814
-follicular lymphoma,Q123251,P31,instance_of,class of disease,Q112193867
-follicular lymphoma,Q123251,P279,subclass_of,B-cell lymphoma,Q4833719
-M7-FLIPI is not prognostic in follicular lymphoma patients with first-line rituximab chemo-free therapy,Q92686534,P31,instance_of,scholarly article,Q13442814
-neoplasm,Q1216998,P279,subclass_of,disease,Q12136
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Cutaneous Lymphomas,Q57304512,P31,instance_of,scholarly article,Q13442814
+Cutaneous Lymphomas,Q57304512,P31,instance_of,review article,Q7318358
+cutaneous lymphoma,Q1794643,P31,instance_of,class of disease,Q112193867
+cutaneous lymphoma,Q1794643,P279,subclass_of,primary organ-specific lymphoma,Q55786911
+cutaneous lymphoma,Q1794643,P279,subclass_of,genetic hematologic disease,Q55785542
+cutaneous lymphoma,Q1794643,P279,subclass_of,skin tumor or hamartoma,Q55788604
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+cutaneous lymphoma,Q1794643,P31,instance_of,class of disease,Q112193867
+cutaneous lymphoma,Q1794643,P279,subclass_of,primary organ-specific lymphoma,Q55786911
+cutaneous lymphoma,Q1794643,P279,subclass_of,genetic hematologic disease,Q55785542
+cutaneous lymphoma,Q1794643,P279,subclass_of,skin tumor or hamartoma,Q55788604
+T-cell lymphomas,Q39731874,P31,instance_of,scholarly article,Q13442814
+T-cell lymphomas,Q39731874,P31,instance_of,review article,Q7318358
+peripheral T-cell lymphoma,Q7168693,P31,instance_of,class of disease,Q112193867
+peripheral T-cell lymphoma,Q7168693,P279,subclass_of,mature T-cell and NK-cell lymphoma,Q18553445
+Cutaneous T-cell lymphomas,Q70531771,P31,instance_of,scholarly article,Q13442814
 Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
 Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
 Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
@@ -270,14 +246,10 @@ follicular lymphoma,Q123251,P279,subclass_of,B-cell lymphoma,Q4833719
 Richter's syndrome,Q938329,P31,instance_of,class of disease,Q112193867
 Richter's syndrome,Q938329,P279,subclass_of,chronic lymphocytic leukemia,Q1088156
 Richter's syndrome,Q938329,P279,subclass_of,disease,Q12136
-Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
-Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
-Aggressive lymphomas,Q28279743,P31,instance_of,scholarly article,Q13442814
-Aggressive lymphomas,Q28279743,P31,instance_of,review article,Q7318358
-neoplasm,Q1216998,P279,subclass_of,disease,Q12136
-Hodgkin's Lymphomas: A Tumor Recognized by Its Microenvironment,Q34235750,P31,instance_of,scholarly article,Q13442814
-Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
-Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Hodgkin's and non-Hodgkin's lymphoma of the head and neck,Q34378108,P31,instance_of,scholarly article,Q13442814
+malignancy,Q1483951,P31,instance_of,disease attributes,Q54932064
+malignancy,Q1483951,P279,subclass_of,medical attribute,Q44476427
+malignancy,Q1483951,P279,subclass_of,health risk,Q87075524
 Lymphoma of the Eyelid - An International Multicenter Retrospective Study,Q38956559,P31,instance_of,scholarly article,Q13442814
 skin appendages,Q1239288,P279,subclass_of,skin,Q1074
 skin appendages,Q1239288,P279,subclass_of,subdivision of epidermis,Q66568545
@@ -302,3 +274,16 @@ NECTIN3,Q18037819,P279,subclass_of,protein-coding gene,Q20747295
 Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
 Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
 Ocular lymphomas,Q80372717,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Aggressive lymphomas,Q28279743,P31,instance_of,scholarly article,Q13442814
+Aggressive lymphomas,Q28279743,P31,instance_of,review article,Q7318358
+neoplasm,Q1216998,P279,subclass_of,disease,Q12136
+Hodgkin's Lymphomas: A Tumor Recognized by Its Microenvironment,Q34235750,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
+Functional lymphoma capable of restoring the thymic response of an allogeneic mouse,Q39289129,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,scholarly article,Q13442814
+Lymphomas,Q60685448,P31,instance_of,review article,Q7318358
