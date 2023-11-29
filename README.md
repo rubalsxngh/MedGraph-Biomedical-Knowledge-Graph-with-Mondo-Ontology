@@ -32,7 +32,7 @@ The goal of the MedGraph project is to create an extensive biological knowledge 
 ![Cipher query example](/images/cipher_query_example.png)
 
 **Contributers**
-* Pratham Gangwal @gangwalp
+* Pratham Gangwal [Pratham Gangwal](https://github.com/gangwalp)
 
 
 
