@@ -6,27 +6,62 @@ methodolgy used:
     3. Check if source nodes from output df exist in original df
     4. Check if target names from output df exist as targets in original df
 """
-def check_ef(output_file_path, original_file_path):
-    import pandas as pd
-
-    output_df = pd.read_csv(output_file_path)
-    original_df = pd.read_csv(original_file_path)
+def check_ef(dataset, entities_list):
 
 
-    source_check_original_to_output = original_df['source'].isin(output_df['source_name'])
-    target_check_original_to_output = original_df['target'].isin(output_df['source_name'])
 
-    result_df = pd.DataFrame({
-        'source': original_df['source'],
-        'source_exists_in_output': source_check_original_to_output,
-        'target': original_df['target'],
-        'target_exists_in_output': target_check_original_to_output
-    })
+    def get_ner_list(text):
+        import spacy
+        from spacy.lang.en.stop_words import STOP_WORDS
+        from spacy.matcher import Matcher
+        from spacy.tokens import Doc, Span, Token
+        from transformers import BertTokenizer
+        import pywikibot
+        import os
+        from my_packages.get_relation import module_getRelations
+        from tqdm import tqdm
+        import pandas as pd
+        #import scispacy
 
-    percentage_matched = result_df['source_exists_in_output'].mean() * 100
-    percentage_matched_target = result_df['target_exists_in_output'].mean() * 100
+        #1. load a spacy pipeline
+        non_nc = spacy.load('en_core_web_md')
+        nlp = spacy.load('en_core_web_md')
+        nlp.add_pipe('merge_noun_chunks')
+            
+
+        #3. entity extraction
+        target_entity_types = ["DISEASE", "GENE", "RNA", "DNA", "DRUG", "CHEMICAL", "CELL_LINE", "CELL_TYPE", "PROTEIN", "PATHWAY", "MUTATION", "ORGAN", "TISSUE", "SYMPTOM", "SPECIES"]
+        
+        """
+        * I HAVEN'T SPEND MUCH ON FEATURE ENGINEERING,  'target_entity_types' AND    
+        CONTAINS TYPES OF ENTITIES I AM CONSIDERING TO BE EXTRACTED 
+        """
+
+        nlp = spacy.load("en_ner_bc5cdr_md")
+        doc= nlp(text)
+
+
+        ner_list= []  
+        for token in doc.ents:
+            if token not in ner_list and token.label_ in target_entity_types:
+                ner_list.append(token)
+
+        return ner_list
     
-    print("checking for original-> output")
-    print("Percentage of source values matched:", percentage_matched)
-    print("Percentage of target values matched:", percentage_matched_target)
+    
+
+    ner_list= get_ner_list(dataset)
+
+    ner_set = set([str(item).lower() for item in ner_list])
+    entities_set = set([item.lower() for item in entities_list])
+
+    true_positive = len(ner_set.intersection(entities_set))
+    false_positive = len(ner_set - entities_set)
+    false_negative = len(entities_set - ner_set)
+
+
+    accuracy = true_positive / (true_positive + false_positive + false_negative)
+
+
+    return accuracy
 
