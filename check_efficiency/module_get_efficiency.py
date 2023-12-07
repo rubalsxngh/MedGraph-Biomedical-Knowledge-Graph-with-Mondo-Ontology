@@ -6,6 +6,7 @@ methodolgy used:
     3. Check if source nodes from output df exist in original df
     4. Check if target names from output df exist as targets in original df
 """
+
 def check_ef(dataset, entities_list):
 
 
@@ -60,8 +61,10 @@ def check_ef(dataset, entities_list):
     false_negative = len(entities_set - ner_set)
 
 
-    accuracy = true_positive / (true_positive + false_positive + false_negative)
+    precision = true_positive / (true_positive + false_positive) if (true_positive + false_positive) > 0 else 0
+    recall = true_positive / (true_positive + false_negative) if (true_positive + false_negative) > 0 else 0
 
+    f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
 
-    return accuracy
+    return [precision, recall, f1_score]
 
