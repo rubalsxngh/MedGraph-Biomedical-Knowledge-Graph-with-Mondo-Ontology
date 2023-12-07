@@ -47,14 +47,27 @@ def get_p31(row):
         # Check if 'P31' claim exists
         if 'P31' in itemdata['claims']:
             target = itemdata['claims']['P31'][0].target
-            return target.labels['en']
+            
+            # Check if the target is an ItemPage
+            if isinstance(target, pywikibot.ItemPage):
+                return target.labels['en']
+            else:
+                # Handle the case where 'P31' target is not an ItemPage
+                return f'Redirects to: {target.title()}'
         else:
             return 'No P31 Claim'
     
-    except pywikibot.exceptions.NoPage:
+    except pywikibot.exceptions.NoPageError:
         return 'Item does not exist'
+    
+    except pywikibot.exceptions.IsRedirectPageError as e:
+        # Handle redirect page
+        return f'Redirects to: {e.title}'
+
     except Exception as e:
         return f'Error: {str(e)}'
+
+
     
 
 def add_nodes(conn, rows, batch_size=10000):
