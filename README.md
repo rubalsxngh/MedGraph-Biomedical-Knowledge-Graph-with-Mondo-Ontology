@@ -27,6 +27,17 @@ The goal of the MedGraph project is to create an extensive biological knowledge 
 * Comprehensive information is embedded within the code for reference.
 - Remember! To beautify the graph, run a script ./cipherQueries/cipher.txt on neo4J, in order to change node labels color
 
+**Run Project**
+* Install all the dependecies.
+    ``` bash
+    pip install -r requirements.txt
+    pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.0.0/en_core_web_md-3.0.0.tar.gz
+    pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/en_ner_bc5cdr_md-0.4.0.tar.gz
+
+* Run GUI version.
+    ``` bash
+    python /main_gui.py
+
 **Ouput Sample**
 ![Graph output](https://i.imgur.com/rggrcuB.png)
 
